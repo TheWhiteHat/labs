@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -o level1 level1.c
 
+$compiler -o level1 level1.c
