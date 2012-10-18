@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z $compiler ]
 then
-  if [ which gcc 2&>/dev/null ]
+  if which gcc >/dev/null 2>&1
   then
     compiler=gcc
   else
